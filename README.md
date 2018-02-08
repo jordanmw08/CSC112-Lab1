@@ -24,11 +24,11 @@ The first order of business is to get set up with github, so you can
 submit your assignments!  This will be a relatively painless
 process. Note that these instructions are intended for Maryville
 College students.  If you are some other person, then you will not be
-doing the class participating things outlined here.
+doing the class participation activities outlined here.
 
 1. Go to github.com and sign up for a free account.
 2. Verify your email address.
-3. **MC Students Only** Fill in your username and password on the
+3. **MC Students Only** Fill in your username and real name on the
 shared worksheet on the classroom projector.
 4. Follow the [GitHub SSH Key
 Tutorial](https://help.github.com/articles/connecting-to-github-with-ssh/)
