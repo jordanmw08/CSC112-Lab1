@@ -136,7 +136,7 @@ are presently using is one of these, but it still responds to the same
 escape sequences as the physical devices of yesterday. Thus we came the
 current state of the art of teleprinter control, the escape sequence\!
 
-  - phew\* Now are are you ready to code?
+\*phew\* Now are are you ready to code?
 
 ## Messing with Terminals
 
