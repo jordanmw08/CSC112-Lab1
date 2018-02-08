@@ -112,7 +112,7 @@ didn't fit into a 5-bit alphabet, and so 7-bit ASCII (American Standard
 Code for Information Interchange) was born, and became the standard for
 all teletype devices.
 
-Then came the rise of the computer. Teletypes where used to talk to
+Then came the rise of the computer. Teletypes were used to talk to
 computers, and people were using paper at an alarming rate. Your average
 programmer consumed somewhere in the neighborhood of 1 deciduous forest
 per year, and that was just when he wasn't playing Star Trek\! (man
@@ -128,7 +128,7 @@ bits. Rather than extend the character set, sequences of characters were
 designated for this use.
 
 Eventually, computers became smaller and cheaper, and so the physical
-terminal died and was replaced by a terminal emulator. The terminal you
+terminal died and was replaced by the terminal emulator. The terminal you
 are presently using is one of these, but it still responds to the same
 escape sequences as the physical devices of yesterday. Thus we came the
 current state of the art of teleprinter control, the escape sequence\!
@@ -240,8 +240,7 @@ it's a pain\! Wouldn't it be great if we could do something like:
 ` cout << red << "Hello world" << normal << endl;`
 
 Well it turns out with just a little bit of work, we can do that\! In
-fact, I have. Check out my header file at
-[media:termmanip.h](media:termmanip.h "wikilink"). Look the file over,
+fact, I have. Check out my header file, termmanip.h. Look the file over,
 and see if there is any C++ syntax that you have not seen before. We'll
 discuss elements of this file as the class goes on.
 
@@ -300,7 +299,7 @@ Now, let's take a look at some of the things that may seem odd in the
 header file. First, there is the word "inline" sprinkled all over the
 place. You may not have seen that before. Basically what that is is it
 tells the compiler to attempt to duplicate the function instead of
-calling it. See, those functions are tiny one liners and so the overhead
+calling it. Those functions are tiny one liners and so the overhead
 of invoking the code is greater than the cost of running the function.
 Marking them inline gives the optimizer the hint that it may be better
 to simply duplicate these functions than it is to call them. This makes
