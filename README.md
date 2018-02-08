@@ -17,9 +17,6 @@ class. In the challenge section of the lab, you'll have an opportunity
 to show me that you can still craft loops, branches, and get around in a
 UNIX system.
 
-Do the work for this lab in your CSC112 project in your Labs/Lab1
-folder.
-
 Good luck, and enjoy\!
 
 ## Getting Started with git
