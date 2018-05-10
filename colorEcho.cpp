@@ -77,7 +77,7 @@ int main(int argc, char **argv)
     
     
         if(args.size() == 2) {
-        //make some room
+        //make some room  
         cout << endl << endl;
         
         //set the color
